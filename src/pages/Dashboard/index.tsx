@@ -80,7 +80,7 @@ const Dashboard = () => {
     setEditModalOpen(!editModalOpen)
   }
 
-  const handleEditFood = (food) => {
+  const handleEditFood = (food: IFood) => {
     setEditModalOpen(true)
     setEditingFood(food)
   }
